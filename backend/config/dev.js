@@ -3,7 +3,7 @@ module.exports = {
   dbName: 'monday_DB'
 }
 
-module.exports = {
-  dbURL: 'mongodb+srv://abc:test123@cluster0.cpspfy9.mongodb.net/?appName=Cluster0',
-  dbName: 'Users'
-}
+// module.exports = {
+//   dbURL: 'mongodb+srv://abc:test123@cluster0.cpspfy9.mongodb.net/?appName=Cluster0',
+//   dbName: 'Users'
+// }
