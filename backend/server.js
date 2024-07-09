@@ -14,7 +14,7 @@ if (process.env.NODE_ENV === 'production') {
     app.use(express.static(path.resolve(__dirname, 'public')))
 } else {
     const corsOptions = {
-        origin: ["https://dominion-7hz3.onrender.com"],
+        origin: [['http://127.0.0.1:3000',"https://dominion-7hz3.onrender.com"],
         credentials: true
     }
     app.use(cors(corsOptions))
